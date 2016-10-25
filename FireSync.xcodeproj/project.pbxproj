@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F5F065D8C3AE45EA0AA6139 /* Pods_FireSync.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00D4CD0782D2B3C6628CE4D5 /* Pods_FireSync.framework */; };
+		9902CF3E1DBE318000692824 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9902CF3D1DBE318000692824 /* AppDelegate.swift */; };
+		9902CF401DBE318000692824 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9902CF3F1DBE318000692824 /* ViewController.swift */; };
+		9902CF431DBE318000692824 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9902CF411DBE318000692824 /* Main.storyboard */; };
+		9902CF451DBE318000692824 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9902CF441DBE318000692824 /* Assets.xcassets */; };
+		9902CF481DBE318000692824 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9902CF461DBE318000692824 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00D4CD0782D2B3C6628CE4D5 /* Pods_FireSync.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FireSync.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E90C2ECEB6F60F2BE390776 /* Pods-FireSync.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireSync.release.xcconfig"; path = "Pods/Target Support Files/Pods-FireSync/Pods-FireSync.release.xcconfig"; sourceTree = "<group>"; };
+		9902CF3A1DBE318000692824 /* FireSync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FireSync.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9902CF3D1DBE318000692824 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9902CF3F1DBE318000692824 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9902CF421DBE318000692824 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9902CF441DBE318000692824 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9902CF471DBE318000692824 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9902CF491DBE318000692824 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACA1C2F5F1EB78A3BF53E262 /* Pods-FireSync.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireSync.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FireSync/Pods-FireSync.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9902CF371DBE318000692824 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F5F065D8C3AE45EA0AA6139 /* Pods_FireSync.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E22F1738718BE64AFA8B40A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ACA1C2F5F1EB78A3BF53E262 /* Pods-FireSync.debug.xcconfig */,
+				5E90C2ECEB6F60F2BE390776 /* Pods-FireSync.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8053140B4E0214DAC12AB28E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00D4CD0782D2B3C6628CE4D5 /* Pods_FireSync.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9902CF311DBE318000692824 = {
+			isa = PBXGroup;
+			children = (
+				9902CF3C1DBE318000692824 /* FireSync */,
+				9902CF3B1DBE318000692824 /* Products */,
+				7E22F1738718BE64AFA8B40A /* Pods */,
+				8053140B4E0214DAC12AB28E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9902CF3B1DBE318000692824 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9902CF3A1DBE318000692824 /* FireSync.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9902CF3C1DBE318000692824 /* FireSync */ = {
+			isa = PBXGroup;
+			children = (
+				9902CF3D1DBE318000692824 /* AppDelegate.swift */,
+				9902CF3F1DBE318000692824 /* ViewController.swift */,
+				9902CF411DBE318000692824 /* Main.storyboard */,
+				9902CF441DBE318000692824 /* Assets.xcassets */,
+				9902CF461DBE318000692824 /* LaunchScreen.storyboard */,
+				9902CF491DBE318000692824 /* Info.plist */,
+			);
+			path = FireSync;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9902CF391DBE318000692824 /* FireSync */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9902CF4C1DBE318000692824 /* Build configuration list for PBXNativeTarget "FireSync" */;
+			buildPhases = (
+				C88F54C96AE527D4B5B0FEEF /* [CP] Check Pods Manifest.lock */,
+				9902CF361DBE318000692824 /* Sources */,
+				9902CF371DBE318000692824 /* Frameworks */,
+				9902CF381DBE318000692824 /* Resources */,
+				6AD2B39A2B31A8AA548CCA9D /* [CP] Embed Pods Frameworks */,
+				1A6A5613802681BE4926B93F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FireSync;
+			productName = FireSync;
+			productReference = 9902CF3A1DBE318000692824 /* FireSync.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9902CF321DBE318000692824 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = OneCorp;
+				TargetAttributes = {
+					9902CF391DBE318000692824 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = F2HTKMZH3R;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9902CF351DBE318000692824 /* Build configuration list for PBXProject "FireSync" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9902CF311DBE318000692824;
+			productRefGroup = 9902CF3B1DBE318000692824 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9902CF391DBE318000692824 /* FireSync */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9902CF381DBE318000692824 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9902CF481DBE318000692824 /* LaunchScreen.storyboard in Resources */,
+				9902CF451DBE318000692824 /* Assets.xcassets in Resources */,
+				9902CF431DBE318000692824 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A6A5613802681BE4926B93F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FireSync/Pods-FireSync-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AD2B39A2B31A8AA548CCA9D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FireSync/Pods-FireSync-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C88F54C96AE527D4B5B0FEEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9902CF361DBE318000692824 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9902CF401DBE318000692824 /* ViewController.swift in Sources */,
+				9902CF3E1DBE318000692824 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9902CF411DBE318000692824 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9902CF421DBE318000692824 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9902CF461DBE318000692824 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9902CF471DBE318000692824 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9902CF4A1DBE318000692824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9902CF4B1DBE318000692824 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9902CF4D1DBE318000692824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACA1C2F5F1EB78A3BF53E262 /* Pods-FireSync.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F2HTKMZH3R;
+				INFOPLIST_FILE = FireSync/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.onecorp.FireSync;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9902CF4E1DBE318000692824 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E90C2ECEB6F60F2BE390776 /* Pods-FireSync.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F2HTKMZH3R;
+				INFOPLIST_FILE = FireSync/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.onecorp.FireSync;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9902CF351DBE318000692824 /* Build configuration list for PBXProject "FireSync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9902CF4A1DBE318000692824 /* Debug */,
+				9902CF4B1DBE318000692824 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9902CF4C1DBE318000692824 /* Build configuration list for PBXNativeTarget "FireSync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9902CF4D1DBE318000692824 /* Debug */,
+				9902CF4E1DBE318000692824 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9902CF321DBE318000692824 /* Project object */;
+}
